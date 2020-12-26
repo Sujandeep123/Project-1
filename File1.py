@@ -18,6 +18,11 @@ print('#' * 50)
 for key, value in word_counter.items():
     if value >= 2:
         more_than_two[key] = value
-print(more_than_two)
+
+print('='*20)
+print("World\t\tCount")
+for word, count in word_counter.items():
+    print(f"{word}\t\t{count}")
 
 
+# %%
